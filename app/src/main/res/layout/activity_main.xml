@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0E14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JARVIS"
+            android:textColor="#3EE0E0"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jarvis band hai"
+            android:textColor="#7C8698"
+            android:textSize="13sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jarvis Start Karo (background)"
+            android:backgroundTint="#3EE0E0"
+            android:textColor="#03181A"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jarvis Band Karo"
+            android:backgroundTint="#151A24"
+            android:textColor="#E7ECF5"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textColor="#7C8698"
+            android:textSize="12sp"
+            android:letterSpacing="0.2"
+            android:layout_marginBottom="10dp" />
+
+        <EditText android:id="@+id/num_chaitanya" android:hint="Chaitanya ka number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="phone" android:textColor="#E7ECF5" android:textColorHint="#5A6274" />
+
+        <EditText android:id="@+id/num_gauri" android:hint="Gauri didi ka number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="phone" android:textColor="#E7ECF5" android:textColorHint="#5A6274" />
+
+        <EditText android:id="@+id/num_tanni" android:hint="Tanni ka number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="phone" android:textColor="#E7ECF5" android:textColorHint="#5A6274" />
+
+        <EditText android:id="@+id/num_mummy" android:hint="Mummy ka number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="phone" android:textColor="#E7ECF5" android:textColorHint="#5A6274" />
+
+        <EditText android:id="@+id/num_papa" android:hint="Papa ka number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="phone" android:textColor="#E7ECF5" android:textColorHint="#5A6274" />
+
+        <EditText android:id="@+id/num_shankar" android:hint="Shankar ka number"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="phone" android:textColor="#E7ECF5" android:textColorHint="#5A6274" />
+
+        <EditText android:id="@+id/spotify_link" android:hint="Spotify album link ya URI"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="text" android:textColor="#E7ECF5" android:textColorHint="#5A6274"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Settings"
+            android:backgroundTint="#3EE0E0"
+            android:textColor="#03181A" />
+
+    </LinearLayout>
+</ScrollView>
